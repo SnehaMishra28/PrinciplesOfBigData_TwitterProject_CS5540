@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Login
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div class="loginCenter">
+    <h3>Login:</h3>
+    <div class="spacer">
+      <ion-label class="inputLabel">Username:</ion-label>
+      <ion-input class="inputData" type="text" id="txt_user" placeholder="Username or Email" [(ngModel)]="user"></ion-input>
+    </div>
+    <div class="spacer">
+      <ion-label class="inputLabel">Password:</ion-label>
+      <ion-input class="inputData" type="password" id="txt_password" placeholder="Password"[(ngModel)]="pass"></ion-input>
+    </div>
+    <div class="spacer">
+      <div class="checklabel">
+        <ion-label class="inputLabel" for="remember"><ion-checkbox name="remember"></ion-checkbox>Remember Me</ion-label>
+      </div>
+    </div>
+    <div class="spacer">
+      <div class="inputButton">
+        <!--<input type="button" id="btn_login" value="Login" (click)="loginClick()"/>-->
+        <button ion-button color="secondary" (click)="signinUser()">Login</button>
+      </div>
+    </div>
+  </div>
+</ion-content>

@@ -1,0 +1,101 @@
+page-home {
+  .homeCenter {
+    width: 90%;
+    height: auto;
+    padding: 2px 2px 25px 2px;
+    min-width: 300px;
+    margin: auto;
+    border-radius: 20px;
+    background: #aeffff;
+  }
+
+  h3 {
+    margin: 15px 5px 5px 20px;
+    padding: 5px 0px 0px 0px;
+  }
+
+  .spacer {
+    margin: 2px auto;
+    width: auto;
+  }
+
+  .listItem {
+    margin: 10px 20px;
+  }
+
+  .inputData, .inputLabel {
+    padding: 2px;
+    margin: 2px 20px;
+    width: 150px;
+    height: auto;
+  }
+
+  .postData {
+    width: 90%;
+    margin: 2px auto;
+  }
+
+  .inputItem {
+    padding: 2px;
+    margin: 10px 20px;
+    width: 250px;
+    height: auto;
+    float: left;
+  }
+
+  .inputData {
+    border-bottom: #222222 solid 1px;
+  }
+
+  .inputButton {
+    padding: 2px;
+    height: auto;
+    margin: 5px;
+    display: inline-block;
+  }
+  .inputCenter {
+    margin: 5px auto;
+    width: fit-content;
+    align-items: center;
+  }
+
+  .text-input-md {
+    margin: 5px 5px;
+  }
+
+  .logoutButton {
+    float:right;
+    margin: 5px 10px;
+  }
+
+  /*#right-panel {
+            font-family: 'Roboto','sans-serif';
+            line-height: 30px;
+            padding-left: 10px;
+        } */
+
+  /* #right-panel select, #right-panel input {
+       font-size: 15px;
+   }
+
+   #right-panel select {
+       width: 100%;
+   }
+
+   #right-panel i {
+       font-size: 12px;
+   } */
+
+  #map {
+    height: 50%;
+      width: 80%;
+  }
+  /* #right-panel {
+       float: right;
+       width: 48%;
+       padding-left: 2%;
+   } */
+  #output {
+    font-size: 11px;
+  }
+}
